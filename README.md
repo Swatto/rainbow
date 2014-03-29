@@ -1,6 +1,6 @@
 # Rainbow
 
-We all need colors in sad webpage : so why not transform your text to a rainbow !
+We all need colors in sad webpage : so why not transform your text into a rainbow!
 Rainbow doesn't have any dependencies.
 
 ## How to use
@@ -19,30 +19,30 @@ bower install Rainbow
 ![](example/simple.png)
 
 
-- Manually call Rainbow and passe your element as a first params.
+- Manually call Rainbow and pass an element as its first parameter.
 
 ```js
 var title = document.querySelector('h1.title');
 Rainbow(title);
 ```
 
-Rainbow will works no mater the size of your text !
+Rainbow will works no matter the size of your text!
 
 ![](example/text.png)
 
 ## Configuration
 
-You can configure your super rainbow : his saturation and lightness.
-You have two possibilites :
+You can configure your super rainbow: its saturation and lightness.
+There are two ways of doing this:
 
-- Add `data-saturation` or|and `data-lightness` to your DOM element
+- Add `data-saturation` and/or `data-lightness` to the DOM element
 
 ```html
 <h2 class="rainbow" data-saturation="40%" data-lightness="80%">Config Rainbow</h2>
 ```
 
 
-- Add the configuration object as a second params
+- Pass a configuration object as a second parameter
 
 ```js
 var subTitle = document.querySelector('h2.title');
