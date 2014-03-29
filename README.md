@@ -1,6 +1,7 @@
 # Rainbow
 
 We all need colors in sad webpage : so why not transform your text to a rainbow !
+Rainbow doesn't have any dependencies.
 
 ## How to use
 
