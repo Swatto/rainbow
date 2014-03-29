@@ -4,6 +4,12 @@ We all need colors in sad webpage : so why not transform your text to a rainbow 
 
 ## How to use
 
+Install it first
+
+```
+bower install Rainbow
+```
+
 - Simply add the class 'rainbow' to your elements and the script will do his work.
 
 ```html
