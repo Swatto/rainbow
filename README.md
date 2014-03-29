@@ -11,9 +11,6 @@ We all need colors in sad webpage : so why not transform your text to a rainbow 
 ```
 ![](example/simple.png)
 
-Rainbow will work no mather the size of your text !
-
-![](example/text.png)
 
 - Manually call Rainbow and passe your element as a first params.
 
@@ -21,6 +18,10 @@ Rainbow will work no mather the size of your text !
 var title = document.querySelector('h1.title');
 Rainbow(title);
 ```
+
+Rainbow will works no mater the size of your text !
+
+![](example/text.png)
 
 ## Configuration
 
@@ -33,7 +34,6 @@ You have two possibilites :
 <h2 class="rainbow" data-saturation="40%" data-lightness="80%">Config Rainbow</h2>
 ```
 
-![](example/config.png)
 
 - Add the configuration object as a second params
 
@@ -44,6 +44,8 @@ Rainbow(subTitle, {
   lightness: '80%'
   });
 ```
+
+![](example/config.png)
 
 NB: if both are set, the configuration object will have the priority.
 
