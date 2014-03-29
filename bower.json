@@ -1,0 +1,19 @@
+{
+  "name": "rainbow",
+  "main": "rainbow.js",
+  "version": "1.0.0",
+  "authors": [
+    "Gaël Gillard <gillardgael@gmail.com>"
+  ],
+  "description": "Put any DOM element that contains text in to a rainbow",
+  "keywords": [
+    "rainbow",
+    "colors"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "example"
+  ]
+}
