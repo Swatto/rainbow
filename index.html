@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rainbow example</title>
+    <style>
+      html, body{
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        display: flex;
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        background: #101010;
+      }
+      .container{
+        box-sizing: border-box;
+        margin: auto;
+        padding: 10px;
+      }
+      hr{
+        border-color: #393939;
+      }
+      h1, h2{
+        margin: auto;
+        font-size: 5em;
+        text-align: center;
+        font-weight: 100;
+      }
+      h2{
+        font-size: 1.4em;
+        line-height: 3.5rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+      }
+      p{
+        position: fixed;
+        margin: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        font-size: 12px;
+        line-height: 2em;
+        text-align: center;
+        color: white;
+        background: #101010;
+        font-weight: 100;
+        letter-spacing: 2px;
+      }
+      span{
+        color: #FF0000;
+      }
+      a{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="rainbow">Rainbow</h1>
+      <hr>
+      <h2 class="rainbow" data-saturation="70%" data-lightness="70%">Your daily colors provider that doesn't care about the size of your text.</h2>
+    </div>
+    <p>Made with <span>&hearts;</span> by <a href="https://github.com/Swatto" target="_blank">Gaël Gillard</a></p>
+    <script src="rainbow.js"></script>
+  </body>
+</html>
